@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            Word Order Randomizer for Language Learning
+        </title>
+        <link rel="stylesheet" href="style/word-order-randomizer.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Language Learning Tool:
+            </h1>
+            <h1 class="title">
+                Word Order Randomizer
+            </h1>
+            <h4>
+               Digital Flashcards to practice new vocabulary through the Language Learning Tool:
+            </h4>
+            <h6>
+                Type in the word you want to practice and its meaning. Press save to write it down.
+            </h6>
+            <h6>
+                Then, press shuffle and they will appear in a completely random order. 
+            </h>
+        </header>
+        <hr>
+        <content>
+            <input id="word" type="text" placeholder="Word">
+        <input id="meaning" type="text" placeholder="Meaning">
+        <button id="save" onclick="saveItems()">
+            Save
+        </button>
+        <button id="shuffle" onclick="shuffleItems()">
+            Shuffle
+        </button>
+        <div class="output"></div>
+        </content>
+        
+        <script src="script/word-order-randomizer.js"></script>
+    </body>
+</html>
