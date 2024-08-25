@@ -4,7 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
-header {
+header,
+foot {
     margin:30px;
 }
 content {
